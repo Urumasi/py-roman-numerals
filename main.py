@@ -4,7 +4,7 @@ def test(fn, input=[], output=[]):
         fv = fn(v)
         if fv!=output[k]:
             return (False, k, (fv, output[k]))
-    return (True, 0)
+    return (True,)
 
 
 def rinc(s):
